@@ -10,6 +10,7 @@ export interface Education {
     company: string;
     duration: string;
     description: string[];
+    environment: string;
   }
   
   export interface Skill {

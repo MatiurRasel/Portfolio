@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { WorkExperience } from '../models/models';
 
 @Component({
   selector: 'app-work-experience',
@@ -8,49 +9,41 @@ import { Component } from '@angular/core';
 export class WorkExperienceComponent implements OnInit {
   workExpList: WorkExperience[] = [
     {
-      role: 'Chief Executing Officer',
-      company: 'Google (Aplhabet)',
-      duration: 'Aug 2015 - Now',
+      role: 'Senior Programmer',
+      company: 'Desh Universal Pvt. Limited',
+      duration: 'Jul 2022 - Present',
       description: [
-        'Working to expand google in remote areas.',
-        'Working to develop new technologies to make life easier.',
+        'Develop & Maintain',
+        'Heavily involved in development of the EIMS (Educational Institute Management System) applications using Microsoft .Net Technologies.',
+        'Multi-Tiered application development, including user-facing features, business functionalities, database objects and reports.',
+        'Actively contributed to the process of continual improvement, with regard to self, team and systems.',
+        'Training new team members and providing technical leadership to existing members if required.',
       ],
+      environment:'Environment: C#, ASP.NET MVC 5, HTML, CSS, Bootstrap, JavaScript, jQuery, GITLAB, Visual Studio, VS Code, MS SQL Server, IIS, Crystal Report.'
     },
     {
-      role: 'Senior Vice President',
-      company: 'Google',
-      duration: 'Apr 2012 - Aug 2015',
+      role: 'Programmer',
+      company: 'Desh Universal Pvt. Limited',
+      duration: 'Apr 2020 - Jun 2022',
       description: [
-        'Involved in various Public talks',
-        'Open Sourced Google VP8',
+        'Involved in gathering business requirements, planning and project documentation.',
+        'Heavily involved in development of the EIMS (Educational Institute Management System) applications using Microsoft .Net Technologies.',
+        'Multi-Tiered application development, including user-facing features, business functionalities, database objects and reports.',
+        'Actively contributed to the process of continual improvement, with regard to self, team and systems.',
+        'Training new team members and providing technical leadership to existing members if required.',
       ],
-    },
-    {
-      role: 'Vice President',
-      company: 'Google',
-      duration: 'Jul 2008 - Mar 2012',
-      description: [
-        'Included Android in Google',
-        'Worked on Development of Google Maps',
-      ],
-    },
-    {
-      role: 'Product Manager',
-      company: 'Google',
-      duration: 'Apr 2004 - Jun 2008',
-      description: [
-        'Worked on Google Toolbar',
-        'Involved in team to develop Google Chrome',
-      ],
+      environment:'Environment: C#, ASP.NET MVC 5, HTML, CSS, Bootstrap, JavaScript, jQuery, GITLAB, Visual Studio, VS Code, MS SQL Server, IIS, Crystal Report.'
     },
     {
       role: 'Junior Programmer',
       company: 'Desh Universal Pvt. Limited',
       duration: 'Sep 2019 - Mar 2020',
       description: [
-        'Worked with multiple teams to develop desktop and web applications',
-        'Worked on different technologies such as (Dotnet, C++, Java)',
+        'Migrating, Developed and enhance features from desktop to web-based applications and web-based application',
+        'Implement software/application for different clients and provide software training to Clients/IT Officer.',
+        'Maintaining regular client communication, and support through Email, Skype, TeamViewer, Anydesk.',
       ],
+      environment:'Environment: C#, ASP.NET, Bootstrap, jQuery, MS SQL Server and Crystal Report.'
     },
   ];
   constructor() {}
