@@ -60,6 +60,7 @@
     bottom: 0%;
     position: absolute;
     background-color: #69F0AE;
+    /* background-color: var(--dark-gray); */
     clip-path: inset(0 round 50% 0 0);
 }
 
